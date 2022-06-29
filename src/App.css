@@ -19,7 +19,7 @@
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: rgb(162, 65, 133);
+  background-color: rgb(65 150 162);
   height: 50px;
   color: white;
   display: flex;
@@ -37,7 +37,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-image: url('../bg-1.jpg');
+  background-image: url('../bg-2.jpg');
   background-position: center;
   background-size: contain;
   padding: 100px 0px;
@@ -84,7 +84,7 @@ footer {
     z-index: 1;
     bottom: 0;
     width: 100%;
-    background-color: rgb(162, 65, 133);
+    background-color: rgb(65 150 162);
     height: 50px;
     color: white;
     display: flex;

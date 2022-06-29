@@ -2,13 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  
-  const pictures = ['../bg-1.jpg', '../bg-2.jpg','../bg-3.jpg','../bg-4.jpg']
-  const [index, setIndex] = useState(0);
-  const [pic, setPic] = useState('../bg-1.jpg')
-
-  
-  
+    
   return (
     <div className="app">
       <header className='header'>
@@ -20,7 +14,7 @@ function App() {
             Hoy quiero recordar:
           </span>
           <span className='text'>
-            cuando me dijiste "pomodorino" por primera vez, y te reíste por 5 minutos seguidos sin parar. fue muy lindo
+            cuando te ganaba en Houseparty jugando UNO, y te enojabas y me hacía divertir. También cuando tu ganabas el juego de las palabras en inglés, que todavía no entiendo cómo era que ganabas.
           </span>
         </div>
         <div className='textBox'>
@@ -28,7 +22,7 @@ function App() {
             Hoy extraño:
           </span>
           <span className='text'>
-            tu amor...
+            que me controles, que me molestes, extraño tu risa
           </span>
         </div>
         <div className='textBox'>
@@ -36,10 +30,10 @@ function App() {
             cosas que me gustan de ti
           </span>
           <span className='text'>
-            Tu risa <br></br>
-            Tu mirada <br></br>
-            Tus bromas <br></br>
-            Tu manera de ser <br></br>
+            la faccina che fai di bambina <br></br>
+            la faccina cuando te enojas por algo que dije a propósito para hacerte enojar <br></br>
+            tu dedicación a las cosas que te gustan <br></br>
+            tu sentido del humor <br></br>
           </span>
         </div>
         <div className='textBox'>
@@ -47,15 +41,41 @@ function App() {
             Me gustaría decirte:
           </span>
           <span className='text'>
-            Que lo único que quiero es poder estar contigo
+            que quiero vivir todas mis aventuras contigo, toda mi vida contigo
           </span>
         </div>
         <div className='textBox'>
           <span className='subtitle'>
-            Me disculpo por:
+            pienso en ti:
           </span>
           <span className='text'>
-            no entender lo que necesitabas
+            a cada momento, y me pregunto como sería si estuvieses a mi lado, qué harías, que dirías...
+          </span>
+        </div>
+        <div className='textBox'>
+          <span className='subtitle'>
+            te he molestado tanto estas semanas y no he dejado de intentarlo porque:
+          </span>
+          <span className='text'>
+            no quiero vivir sin ti
+          </span>
+        </div>
+        
+        <div className='textBox'>
+          <span className='subtitle'>
+            me gusta cuando:
+          </span>
+          <span className='text'>
+            pienso en tenerte cerca, me da miedo y al mismo tiempo me emociona.
+          </span>
+        </div>
+        
+        <div className='textBox'>
+          <span className='subtitle'>
+            nunca pensé que:
+          </span>
+          <span className='text'>
+            en Italia iba a conocer la persona que se conviritó en la más importante de mi vida.
           </span>
         </div>
         
@@ -64,7 +84,7 @@ function App() {
             Hoy deseo:
           </span>
           <span className='text'>
-            que pienses en darme una oportunidad
+            escuchar nuestra canción, mientras nos abrazamos y bailamos lento, pegaditos, mientras te canto la canción al oído. ya sabes cual canción...
           </span>
         </div>
         
