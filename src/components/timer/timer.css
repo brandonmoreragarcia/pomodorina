@@ -1,0 +1,27 @@
+
+.timer-wrapper {
+    display: flex;
+}
+
+.timebox {
+    width: 95px;
+    height: 80px;
+    flex-direction: column;
+    
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.border-left {
+    border-left: 1px solid black;
+}
+
+.timebox .label {
+    font-size: 15px;
+}
